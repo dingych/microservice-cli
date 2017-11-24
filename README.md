@@ -1,6 +1,16 @@
-# mircservice-demo
-微服务脚手架项目，完成脚手架的搭建，目标为了可以直接投入业务开发
+# 微服务脚手架
+你是否觉得每次新建工程都是很麻烦，要去理清依赖配置pom，新建mybatis的配置，新建各种三方依赖，包结构，那么恭喜你现在可以解脱了
+我们将提供使用两种脚手架(for boot 和 for cloud 项目)，秒建新工程。
 
+## 项目的特色
+忘记基础配置，提高生产力
+
+## 如何使用
+
+## 默认依赖哪些库
+
+
+当然 你也可以用下面的无脑拷贝版
 ## 无脑拷贝的模板（D.4版本）
 ```
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
