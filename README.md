@@ -82,6 +82,16 @@
 		</dependency>
 ```
 
+## feign
+
+```
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-feign</artifactId>
+		</dependency>
+
+```
+
 ## config 相关
 
 ```
