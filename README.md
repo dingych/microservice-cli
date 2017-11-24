@@ -181,3 +181,23 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 ```
+
+
+## rabbitmq
+```
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+		</dependency>
+```
+
+## jackson
+
+```
+
+		 <dependency>
+		       <groupId>org.codehaus.jackson</groupId>
+		       <artifactId>jackson-mapper-asl</artifactId>
+		       <version>1.9.8</version>
+        	</dependency>
+```
