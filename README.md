@@ -214,3 +214,5 @@
 
 ## 启动脚本
 
+https://github.com/yonyou-auto-dev/mircoservice-cli/blob/master/service.sh
+
