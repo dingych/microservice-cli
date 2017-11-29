@@ -2,6 +2,8 @@
 你是否觉得每次新建工程都是很麻烦，要去理清依赖配置pom，新建mybatis的配置，新建各种三方依赖，包结构，那么恭喜你现在可以解脱了
 我们将提供使用两种脚手架(for boot 和 for cloud 项目)，秒建新工程，目前已经把骨架上传到了公司内网私有库上。
 
+增加一个remote的配置即可 http://210.13.111.26:10160/nexus/service/local/repositories/snapshots/content/archetype-catalog.xml
+
 ## 项目的特色
 忘记基础配置，提高生产力
 
