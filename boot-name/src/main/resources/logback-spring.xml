@@ -8,6 +8,9 @@
 
 	<logger name="com.yonyou" level="debug" />
 	<logger name="org.springframework.web" level="info" />
+	<logger name="org.ibatis" level="DEBUG" />
+	<logger name="druid.sql" level="DEBUG" />
+	<logger name="org.springframework.jdbc" level="DEBUG" />
 
 	<!-- 控制台打印 -->
 	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
