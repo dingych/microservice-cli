@@ -5,11 +5,17 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.spring4all.swagger.EnableSwagger2Doc;
 
+/**
+ * 入口函数
+ * 
+ * @author BENJAMIN
+ *
+ */
 @SpringBootApplication
 @EnableSwagger2Doc
-public class BootMApplication {
+public class BootApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BootMApplication.class, args);
+		SpringApplication.run(BootApplication.class, args);
 	}
 }
