@@ -224,3 +224,45 @@ https://github.com/yonyou-auto-dev/mircoservice-cli/blob/master/service.sh
 
 ## 超时相关
 https://mp.weixin.qq.com/s/CvksAP25pv3qiKM3D4tJNw
+
+
+## API项目 
+<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<tcc.version>1.2.4.20</tcc.version>
+		<spring.version>4.3.5.RELEASE</spring.version>
+		<jpa.version>1.0.0.Final</jpa.version>
+		<commonElegance.verison>0.0.2-SNAPSHOT</commonElegance.verison>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${spring.version}</version>
+			<optional>true</optional>
+		</dependency>
+
+		<!-- JPA begin -->
+		<dependency>
+			<groupId>org.hibernate.javax.persistence</groupId>
+			<artifactId>hibernate-jpa-2.1-api</artifactId>
+			<version>${jpa.version}</version>
+			<optional>true</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>com.yonyou.cloud</groupId>
+			<artifactId>common-elegance</artifactId>
+			<version>${commonElegance.verison}</version>
+		</dependency>
+
+	</dependencies>
+
