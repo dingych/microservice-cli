@@ -35,7 +35,7 @@
 		
 		<!-- 相关依赖的版本 -->
 		<!-- 二方库 -->
-		<commonElegance.verison>0.0.3-SNAPSHOT</commonElegance.verison>
+		<commonElegance.verison>0.0.4-SNAPSHOT</commonElegance.verison>
 		<mom.version>0.0.4-SNAPSHOT</mom.version>
 		<!-- 三方库 -->
 		<mapper.version>3.4.2</mapper.version>
@@ -149,12 +149,12 @@
 		<repository>
 			<id>nexus</id>
 			<name>Releases name</name>
-			<url>http://10.180.8.208:32000/repository/maven-releases/</url>
+			<url>http://10.180.6.194:8081/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
 			<name>snapshots name</name>
-			<url>http://10.180.8.208:32000/repository/maven-snapshots/</url>
+			<url>http://10.180.6.194:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>
