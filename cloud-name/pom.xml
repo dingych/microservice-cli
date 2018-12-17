@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.yonyou.cloud.project.biz.name</groupId>
+	<groupId>com.yonyou.project</groupId>
 	<artifactId>cloud-name</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>coloud-name</name>
+	<name>cloud-name</name>
 	<description>cloud-name</description>
 
 	<parent>
@@ -188,7 +188,7 @@
 		<repository>
 			<id>nexus</id>
 			<name>Releases name</name>
-			<url>http://10.180.6.194:8081/nexus/content/repositories/snapshots/</url>
+			<url>http://10.180.6.194:8081/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
